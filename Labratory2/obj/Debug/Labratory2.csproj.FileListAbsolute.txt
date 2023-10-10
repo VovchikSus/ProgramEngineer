@@ -1,0 +1,7 @@
+D:\PROJECTS\Labratory2\Labratory2\obj\Debug\Labratory2.csproj.AssemblyReference.cache
+D:\PROJECTS\Labratory2\Labratory2\obj\Debug\Labratory2.csproj.SuggestedBindingRedirects.cache
+D:\PROJECTS\Labratory2\Labratory2\obj\Debug\Labratory2.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Labratory2\Labratory2\bin\Debug\Labratory2.exe
+D:\PROJECTS\Labratory2\Labratory2\bin\Debug\Labratory2.pdb
+D:\PROJECTS\Labratory2\Labratory2\obj\Debug\Labratory2.exe
+D:\PROJECTS\Labratory2\Labratory2\obj\Debug\Labratory2.pdb
