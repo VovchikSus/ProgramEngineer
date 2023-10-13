@@ -4,7 +4,7 @@ namespace Labratory2
 {
     public class Track: MusicBase
     {
-      
+        
         public Track(string name, double durability, bool isRemix)
         {
             Name = name;

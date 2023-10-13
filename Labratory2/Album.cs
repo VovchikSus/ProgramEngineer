@@ -1,23 +1,35 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Labratory2
 {
     public class AlbumList<T>: List<T> where T : MusicBase
     {   
         
-        public string GetAlbumList()
+        public override string ToString()
         {
-            foreach (T p in this) {
-                
+            string result="\n";
+            foreach (T track in this)
+            {
+                result +=(this.IndexOf(track)+1)+". "+ track.Name+"\n";
             }
-           {
-               
-           }
-        }
 
-        // public string SortAlbumList()
-        // {
-        //     
-        // }
+            return result;
+
+        }
+        public string SortAlbumList()
+        {   
+            var sortedtrack = from track in this
+                orderby track.Name
+                select track;
+            
+            string result="\n";
+            foreach (T track in sortedtrack)
+            {
+                result +=(this.IndexOf(track)+1)+". "+ track.Name+"\n";
+            }
+            return result;
+        }
     }
 }

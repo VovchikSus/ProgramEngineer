@@ -14,7 +14,7 @@ namespace Labratory2
             Console.WriteLine(PrettyFar.ToString());
             
             
-            AlbumList<MusicBase> SpiritualyAndDistortion = new AlbumList<MusicBase>(){
+            AlbumList<Track> SpiritualyAndDistortion = new AlbumList<Track>(){
                 new Track("Downgrade Desert",4.23,false),
                 new Track("Nervous Waltz",3.23,false),
                 new Track("Very Noise",1.47,false),
@@ -22,6 +22,9 @@ namespace Labratory2
                 new Track("Camel Dancefloor",3.13,false),
                 new Track("Parpaing",2.18,false),
             };
+
+            Console.WriteLine(SpiritualyAndDistortion.ToString());
+            Console.WriteLine(SpiritualyAndDistortion.SortAlbumList());
         }
     }
 }
