@@ -14,7 +14,7 @@ namespace Labratory2
             Console.WriteLine(PrettyFar.ToString());
             
             
-            AlbumList<Track> SpiritualyAndDistortion = new AlbumList<Track>(){
+            AlbumList SpiritualyAndDistortion = new AlbumList(){
                 new Track("Downgrade Desert",4.23,false),
                 new Track("Nervous Waltz",3.23,false),
                 new Track("Very Noise",1.47,false),

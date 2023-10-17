@@ -4,13 +4,13 @@ using System.Linq;
 
 namespace Labratory2
 {
-    public class AlbumList<T>: List<T> where T : MusicBase
+    public class AlbumList: List<MusicBase> 
     {   
         
         public override string ToString()
         {
             string result="\n";
-            foreach (T track in this)
+            foreach (var track in this)
             {
                 result +=(this.IndexOf(track)+1)+". "+ track.Name+"\n";
             }
@@ -25,7 +25,7 @@ namespace Labratory2
                 select track;
             
             string result="\n";
-            foreach (T track in sortedtrack)
+            foreach (var track in sortedtrack)
             {
                 result +=(this.IndexOf(track)+1)+". "+ track.Name+"\n";
             }
