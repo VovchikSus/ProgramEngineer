@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Labratory2
 {
@@ -9,13 +10,13 @@ namespace Labratory2
         
         public override string ToString()
         {
-            string result="\n";
+            StringBuilder result=new StringBuilder("\n");
             foreach (var track in this)
             {
-                result +=(this.IndexOf(track)+1)+". "+ track.Name+"\n";
+                result.Append((this.IndexOf(track)+1)+". "+ track.Name+"\n");
             }
-
-            return result;
+            
+            return Convert.ToString(result);
 
         }
         public string SortAlbumList()
@@ -24,12 +25,12 @@ namespace Labratory2
                 orderby track.Name
                 select track;
             
-            string result="\n";
+            StringBuilder result=new StringBuilder("\n");
             foreach (var track in sortedtrack)
             {
-                result +=(this.IndexOf(track)+1)+". "+ track.Name+"\n";
+                result.Append( (this.IndexOf(track)+1)+". "+ track.Name+"\n");
             }
-            return result;
+            return Convert.ToString(result);
         }
     }
 }
