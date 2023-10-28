@@ -11,14 +11,14 @@ namespace LabJob3
 
         public void EquipmentPrint()
         {
-            var builder = new StringBuilder();
-            builder.Append($"У выбранного героя: ");
+            var PrintText = new StringBuilder();
+            PrintText.Append($"У выбранного героя: ");
             foreach (var el in this.EquipmentList)
             {
-                builder.Append($"{el.Name}, ");
+                PrintText.Append($"{el.Name}, ");
             }
 
-            Console.WriteLine(builder);
+            Console.WriteLine(PrintText);
         }
     }
 }
