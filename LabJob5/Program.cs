@@ -6,10 +6,10 @@ namespace LabJob5
     {
         public static void Main(string[] args)
         {
-            Stock tomatoStock = new Stock();
+            Stock tomatoStock = new Stock(100);
             try
             {
-
+                tomatoStock.WriteOfProduct(10);
             }
             catch (Exception e)
             {
@@ -17,7 +17,7 @@ namespace LabJob5
             }
             finally
             {
-                
+                Console.WriteLine(tomatoStock.GetProductCount());
             }
         }
     }

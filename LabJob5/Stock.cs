@@ -1,10 +1,13 @@
-using System;
-
 namespace LabJob5
 {
     public class Stock
     {
         private int ProductCount { get; set; }
+
+        public Stock(int productCount)
+        {
+            ProductCount = productCount;
+        }
         
         
 
@@ -12,14 +15,19 @@ namespace LabJob5
         {
             if (requireProduct>ProductCount)
             {
-                throw new MissingProductException();
                 ProductCount = 0;
+                throw new MissingProductException();
             }
             else
             {
                 ProductCount -= requireProduct;
             }
 
+            return ProductCount;
+        }
+
+        public int GetProductCount()
+        {
             return ProductCount;
         }
     }

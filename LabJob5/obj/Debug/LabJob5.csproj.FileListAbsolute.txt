@@ -1,0 +1,7 @@
+D:\PROJECTS\LabJob5\LabJob5\bin\Debug\LabJob5.exe
+D:\PROJECTS\LabJob5\LabJob5\bin\Debug\LabJob5.pdb
+D:\PROJECTS\LabJob5\LabJob5\obj\Debug\LabJob5.csproj.AssemblyReference.cache
+D:\PROJECTS\LabJob5\LabJob5\obj\Debug\LabJob5.csproj.SuggestedBindingRedirects.cache
+D:\PROJECTS\LabJob5\LabJob5\obj\Debug\LabJob5.csproj.CoreCompileInputs.cache
+D:\PROJECTS\LabJob5\LabJob5\obj\Debug\LabJob5.exe
+D:\PROJECTS\LabJob5\LabJob5\obj\Debug\LabJob5.pdb
